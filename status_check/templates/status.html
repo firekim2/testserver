@@ -1,0 +1,16 @@
+{% load index %}
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <title>Undersalon Status</title>
+</head>
+<body>
+  abc<br>
+  {% for live_member in live_members %}
+    {{ live_member }}<br>
+  {% endfor %}
+
+</body>
+</html>
